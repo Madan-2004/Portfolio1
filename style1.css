@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{   
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+body main{
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-section{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-info{
+    color: #fff;
+    margin-left: 30px;
+    line-height: 65px;
+    font-size: 20px;
+}
+
+.contact-info i{
+    margin-right: 20px;
+    font-size: 25px;
+}
+
+.contact-form{
+    max-width: 700px;
+    margin-right: 50px;
+}
+
+.contact-info, .contact-form{
+    flex: 1;
+}
+
+.contact-form h2{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: cursive;
+    margin-bottom: 30px;
+}
+
+.contact-form .text-box{
+    background: rgb(66, 64, 64);
+    color: #fff;
+    border: none;
+    height: 50px;
+    padding: 12px;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-form .text-box:first-child{
+    margin-right: 15px;
+}
+
+.contact-form textarea{
+    background: rgb(66, 64, 64);
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 12px;
+    font-size: 15px;
+    min-height: 200px;
+    max-height: 400px;
+    resize: vertical;
+    border-radius: 5px;
+    margin-bottom: 20px;
+    opacity: 0.9;
+}
+
+.contact-form .send-btn{
+    float: right;
+    background: rgb(78, 50, 217);
+    color: #fff;
+    border: none;
+    width: 100px;
+    height: 40px;
+    font-size: 15px;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.contact-form .send-btn:hover{
+    background-color: rgb(59, 220, 64);
+}
+
+.insta{
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-family: cursive;
+}  
+
+.insta:hover{
+    color: rgb(59, 220, 64);
+}

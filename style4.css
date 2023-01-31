@@ -1,0 +1,20 @@
+.hi{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    font-family: cursive;
+    font-style: italic;
+    color: #fff;
+    line-height: 65px;
+}
+
+.hope{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+    font-family: cursive;
+    font-style: italic;
+    color: #fff;
+}

@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+*{    
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.background{
+    background: url(pexels-roberto-nickson-2559941.jpg) no-repeat;
+    background-size: cover;
+}
+
+.personal{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: rgb(7, 8, 8);
+    line-height: 65px;
+}
+
+.image{
+    margin: auto;
+    display: inline;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin-top: 10px;
+    margin-bottom: 25px;
+}
+
+.text{
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin: auto;
+    border: none;
+    padding-left: 100px;
+    padding-right: 100px;
+    color: #fff;
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 20px;
+    line-height: 40px; 
+}
+
+.Skills{
+    align-items: center;
+    justify-content: center;
+    display: inline;
+    display: flex;
+    font-family: cursive;
+    margin-top: 50px;
+    font-size: 30px;
+    color: #fff;
+    margin-bottom: 30px;
+}
+
+.img{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    margin: auto;
+}
+
